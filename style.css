@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Poppins:wght@500&family=Satisfy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+body {
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    height: 100vh;
+    align-content: center;
+}
+
+.main-stacture {
+    max-width: 400px;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+    margin: 0 auto;
+    text-align:center ;
+
+}
+
+.main-stacture .calculator {
+    border: 1px solid #717344;
+    padding: 15px;
+    border-radius: 16px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    box-sizing: border-box;
+
+}
+
+.main-stacture .calculator .title {
+    color: #fb7c14;
+    font-size: 20px;
+    box-sizing: border-box;
+
+    background-color: transparent;
+    border: #eceae8;
+
+}
+
+.main-stacture .calculator input {
+    border: none;
+    background: transparent;
+    box-shadow: 0px 3px 15px 0.1;
+    font-size: 45px;
+    text-align: right;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 0 51px 0 0;
+    margin: 20px 0px;
+    font-size: 45px;
+    text-align: right;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+input::placeholder {
+    color: #ffffff;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+
+
+}
+
+.mmm {
+    background-color: #fb7c14;
+}
+
+.oparetor {
+    color: #fb7c14;
+}
+
+
+
+/* resposive */
+
+@media screen and (max-width: 420px) {
+    .main-stacture .calculator .title {
+
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .main-stacture .calculator {
+        padding: 4px;
+        margin: 0 50px;
+
+    }
+
+    .main-stacture .calculator input {
+        padding: 0 70px 0 0;
+        margin: 15px;
+        font-size: 25px;
+        text-align: right;
+        box-sizing: border-box;
+
+    }
+
+    .main-stacture .calculator button {
+        width: 35px;
+        height: 40px;
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 420px){
+    .main-stacture .calculator input {
+        padding: 0 50px 0 0;
+       
+
+    }
+}
+@media screen and (max-width: 340px) {
+
+    .main-stacture .calculator .title {
+        font-size: 10px;
+        text-align: center;
+    }
+    .main-stacture .calculator button {
+        width: 26px;
+        height: 27px;
+        margin: 6px;
+        font-size: 14px;
+    }
+    .main-stacture .calculator input {
+        padding: 0 40px 0 0;
+       
+
+    }
+}
